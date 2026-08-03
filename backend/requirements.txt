@@ -1,0 +1,19 @@
+# Web framework
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9   # required by FastAPI for File(...)/Form(...) uploads
+pydantic>=2.6
+
+# Translation (NLLB) + source-language detection
+transformers>=4.33        # 4.33+ is required for MMS-TTS model support
+torch>=2.2
+lingua-language-detector>=2.0
+
+# Voice input
+faster-whisper>=1.0
+
+# Image OCR
+easyocr>=1.7
+
+# Text-to-speech
+soundfile>=0.12
